@@ -46,7 +46,7 @@ const projects: Project[] = [
   {
     id: 3,
     category: "Tourist Platform",
-    title: "Urban Store",
+    title: "NgijangYuk",
     description: "A comprehensive digital travel companion dedicated to promoting the hidden gems and local culinary delights of Kijang, offering curated recommendations for an enhanced user experience.",
     tags: ["Web Design", "HTML", "CSS"],
     accent: "#FF5FA0",
