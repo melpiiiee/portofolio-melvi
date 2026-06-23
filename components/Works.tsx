@@ -64,7 +64,7 @@ const projects: Project[] = [
   {
     id: 5,
     category: "Dashboard",
-    title: "Website HIMKA Umrah",
+    title: "Dashboard Monitoring Server Kominfo",
     description: "A comprehensive backend service monitoring infrastructure and responsive dashboard agent built to track CPU, memory, and disk.",
     tags: ["Monitoring", "Python"],
     accent: "#22C55E",
