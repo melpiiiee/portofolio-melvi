@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Smile, Folder, Heart, Coffee, Gamepad2, Headphones, Sparkles } from "lucide-react";
 
 const stats = [
@@ -31,9 +32,11 @@ export default function AboutMe() {
           <p className="text-gray-500 mb-6 md:mb-8 leading-relaxed max-w-sm text-sm sm:text-base">
             I'm a Design-Minded Frontend Developer who loves turning complex ideas into clean, pixel-perfect, and functional web applications.
           </p>
-          <button className="border border-gray-300 rounded-full px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base font-semibold flex items-center gap-2 hover:bg-gray-50 transition-colors">
+          <Link
+            href="/about"
+            className="border border-gray-300 rounded-full px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base font-semibold flex items-center gap-2 hover:bg-gray-50 transition-colors">
             More About Me <span>→</span>
-          </button>
+          </Link>
         </div>
 
         {/* Right */}
