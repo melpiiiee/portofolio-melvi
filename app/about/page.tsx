@@ -1,17 +1,13 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import AboutMe from "@/components/AboutMe";
-import FeaturedWorks from "@/components/FeaturedWorks";
+import About from "@/components/About";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="max-w-7xl mx-auto px-6">
       <Navbar />
-      <Hero />
-      <AboutMe />
-      <FeaturedWorks />
+      <About />
       <CTA />
       <Footer />
     </main>
