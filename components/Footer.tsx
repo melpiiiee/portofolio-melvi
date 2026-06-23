@@ -11,13 +11,13 @@ export default function Footer() {
         © 2026 Melvi. All rights reserved.
       </p>
       <div className="flex items-center gap-4 text-gray-700">
-        <a href="#" aria-label="Instagram">
+        <a href="https://instagram.com/melpiiiee" aria-label="Instagram">
           <FaInstagram className="w-5 h-5" />
         </a>
-        <a href="#" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/melvi-najiha-azzahroh-886544294?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn">
           <FaLinkedin className="w-5 h-5" />
         </a>
-        <a href="#" aria-label="Github">
+        <a href="https://github.com/melpiiiee" aria-label="Github">
           <FaGithub className="w-5 h-5" />
         </a>
       </div>

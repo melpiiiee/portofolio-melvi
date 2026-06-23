@@ -54,8 +54,17 @@ const projects: Project[] = [
   },
   {
     id: 4,
+    category: "Organization",
+    title: "Website HIMKA Umrah",
+    description: "A centralized web platform for the Chemistry Student Association, designed to streamline information sharing, event management, and member engagement.",
+    tags: ["Web Design", "Organization"],
+    accent: "#7C5CFC",
+    image: "/himka.jpg",
+  },
+  {
+    id: 5,
     category: "Dashboard",
-    title: "Dashboard Monitoring Server Kominfo",
+    title: "Website HIMKA Umrah",
     description: "A comprehensive backend service monitoring infrastructure and responsive dashboard agent built to track CPU, memory, and disk.",
     tags: ["Monitoring", "Python"],
     accent: "#22C55E",
