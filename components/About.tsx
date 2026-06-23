@@ -30,7 +30,7 @@ import { SiGithub, SiCisco } from "react-icons/si";
 const stats = [
   { value: "2+", label: "Years\nExperience", bg: "bg-pink-100", icon: Smile },
   { value: "5+", label: "Projects\nCompleted", bg: "bg-purple-100", icon: Folder },
-  { value: "∞", label: "Cups of\nMatcha", bg: "bg-pink-100", icon: Coffee },
+  { value: "∞", label: "Cups of\ncoffee", bg: "bg-pink-100", icon: Coffee },
 ];
 
 const coreCapabilities = [
