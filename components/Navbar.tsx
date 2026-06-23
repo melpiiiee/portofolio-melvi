@@ -35,15 +35,17 @@ export default function Navbar() {
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="fixed inset-0 bg-white z-40 flex flex-col items-center justify-center gap-8 md:hidden">
+        <div className="absolute top-full left-0 right-0 bg-white shadow-lg border-b border-gray-100 p-6 flex flex-col items-center gap-6 md:hidden z-40">
           {navLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className={`text-2xl font-bold ${pathname === link.href ? "text-purple-500" : "text-gray-800"}`}
+              className={`text-lg font-semibold ${
+                pathname === link.href ? "text-purple-500" : "text-gray-800"
+              }`}
             >
               {link.label}
             </Link>
