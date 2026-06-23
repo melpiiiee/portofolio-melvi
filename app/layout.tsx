@@ -13,7 +13,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Melvi — UI/UX Designer & Webflow Developer",
+  title: "Portofolio Melvi",
   description: "I design digital experiences that help brands grow.",
 };
 
