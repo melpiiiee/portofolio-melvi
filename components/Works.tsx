@@ -59,7 +59,7 @@ const projects: Project[] = [
     description: "A comprehensive backend service monitoring infrastructure and responsive dashboard agent built to track CPU, memory, and disk.",
     tags: ["Monitoring", "Python"],
     accent: "#22C55E",
-    image: "/dashboard-kominfo.png",
+    image: "/monitoring.jpg",
   },
 ];
 
